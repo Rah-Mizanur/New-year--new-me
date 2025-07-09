@@ -107,7 +107,7 @@
 
   .welcome-container {
       position: relative;
-      width: 100%;
+      /* width: 100%; */
       max-width: 1320px;
       overflow: hidden;
       margin: 00 auto;
@@ -235,7 +235,7 @@
       width: 365px;
       height: 365px;
 
-    
+
   }
 
   .offer-content h3 {
@@ -268,6 +268,150 @@
       font-weight: 700;
       text-align: left;
   }
-  .offer-content3 p{
-    text-align: left;
+
+  .offer-content3 p {
+      text-align: left;
+  }
+
+  /* sale section starts here 
+  */
+  .sale-section {
+      max-width: 1320px;
+      margin: 100px auto;
+      text-align: center;
+  }
+
+  .sale-img-container {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      /* overflow: visible; */
+
+
+  }
+
+  .sale-content h3 {
+      color: rgb(7, 2, 17);
+      font-family: Inter;
+      font-size: 24px;
+      font-weight: 500;
+      margin-bottom: 00px;
+  }
+
+  .sale-content h1 {
+      color: #FF0000;
+      font-size: 72px;
+      font-weight: 900;
+      margin-bottom: 00px;
+  }
+
+  .sale-content h1 span {
+      color: #070211;
+      font-size: 72px;
+      font-weight: 900;
+
+  }
+
+  .sale-content p {
+      font-weight: 500;
+      text-align: center;
+  }
+
+  .sale-img-content {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .sale-img-container .img {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      display: block;
+      top: 400px;
+      overflow: visible;
+  }
+
+  /* portfolio-section start here  */
+  .portfolio-section {
+      max-width: 1320px;
+      margin: 100px auto;
+  }
+
+  .portfolio-container {
+      text-align: left;
+  }
+
+  .portfolio-container h3 {
+      color: #FF0000;
+      font-size: 24px;
+      font-weight: 500;
+      font-family: "Inter";
+  }
+
+  .portfolio-container h1 {
+      font-size: 48px;
+      font-weight: 900px;
+      color: #070217;
+
+  }
+
+  .portfolio-container p {
+      color: rgba(7, 2, 17, 0.6);
+      margin-bottom: 50px;
+  }
+
+  .portfolio-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+  }
+
+  .newsletter-section {
+      max-width: 1320px;
+      margin: 00 auto;
+      /* border: 1px solid lightseagreen; */
+
+      border-radius: 16px;
+
+      background: rgba(255, 0, 0, 0.05);
+  }
+
+  .news-container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 80px 212px;
+  }
+
+  .news-container h1 {
+      font-size: 48px;
+      font-weight: 900;
+      color: #070217;
+      text-transform: capitalize;
+      text-align: center;
+  }
+
+  .news-container .Subscribe {
+      /* padding: 2px 3px ; */
+      border: 1px solid #FF0000;
+      margin-top: 20px;
+      width: 680px;
+      height: 72px;
+      border-radius: 00 50px 50px 00;
+      display: block;
+      display: flex;
+      /* flex-direction: column; */
+  }
+
+  .Subscribe input {
+      width: 70%;
+
+
+  }
+
+  .Subscribe button {
+      width: 30%;
+      border-radius: 0px 50px 50px 0px;
+
+      background: rgb(255, 0, 0);
   }
