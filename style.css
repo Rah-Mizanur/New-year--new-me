@@ -415,3 +415,27 @@
 
       background: rgb(255, 0, 0);
   }
+
+  /* footer starts header */
+  .footer-section{
+    background:#070211;
+  }
+  .footer-section p{
+    color: rgb(255, 255, 255);
+  }
+  .footer-content{
+    display: flex;
+    justify-content: space-around;
+  }
+  .media{
+    padding: 24px 640px;
+
+
+
+    text-align: center;
+  }
+  .copy{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+  }
