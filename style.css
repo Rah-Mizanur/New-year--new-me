@@ -286,6 +286,7 @@
       width: 100%;
       overflow: hidden;
       /* overflow: visible; */
+      /* background: radial-gradient(50.00% 50.00% at 50% 50%,rgb(255, 255, 212),rgb(255, 255, 255) 100%) */
 
 
   }
@@ -326,10 +327,15 @@
       position: absolute;
       width: 100%;
       height: auto;
+      box-sizing: border-box;
       display: block;
       top: 400px;
-      overflow: visible;
-  }
+      /* overflow: hidden; */
+      z-index: -1;
+       background: radial-gradient(50.00% 50.00% at 50% 50%,rgb(255, 255, 212),rgb(255, 255, 255) 100%);
+    background: rgb(255,255, 255);
+
+    }
 
   /* portfolio-section start here  */
   .portfolio-section {
